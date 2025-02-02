@@ -12,8 +12,10 @@ public class HomeController {
     public HomeController(PolarProperties polarProperties) {
         this.polarProperties = polarProperties;
     }
+
     @GetMapping("/")
-    public String home() {
+    public String getGreeting() {
         return polarProperties.getGreeting();
     }
+
 }
