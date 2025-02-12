@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2024.0.0</spring-cloud.version>
 
-		<docker.imagename>ghcr.io/tientjie-san/catalog-service</docker.imagename>
+		<docker.imagename>${project.artifactId}</docker.imagename>
 		<docker.publishRegistry.url>ghcr.io</docker.publishRegistry.url> <!-- Registry URL -->
 		<docker.publishRegistry.username>your-github-username</docker.publishRegistry.username> <!-- Docker registry username -->
 		<docker.publishRegistry.password>your-github-token</docker.publishRegistry.password> <!-- Docker registry token -->
